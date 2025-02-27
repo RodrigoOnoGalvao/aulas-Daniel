@@ -1,0 +1,66 @@
+CLIENT-SIDE vs SERVER-SIDE
+client-request coisos do server
+server-entrega as coisa q o client pede
+As requisições são feitas por meios de protocolos como HTTP(Hypertext Transfer Protocol), IP(Internet Protocol)
+
+HTML-Em 1994, Tim Barners-Lee criou a W3C
+W3C-ABNT da web
+
+Ecossistema web:
+>Web:Front-end:
+    >HTML
+    >CSS
+    >JavaScript
+    >TypeScript
+
+>>Frameworks e Bibliotecas HTML/CSS 
+    >Bootstrap
+    >TailwindCSS
+    >Bulma
+
+>>Frameworks e Bibliotecas JavaScript
+    >React
+    >Angular
+    >Vue
+    >Svelte
+    >JQuery (se auto-atualiza)
+
+Camadas:
+>User Interface
+    >Browser Engine
+        >Data Storage
+        >Rendering Engine
+            >Networking
+            >JS Engine
+>>>>>>>>>>>>>>>>UI Backend
+
+O que é HTML?
+    >HTML é sigla para Hypertext Markeup Language
+    >Foi criado pelo criador da web
+    >HTML não é uma linguagem de programação, por mais que seja uma linguagem
+    >primeira versão-1991
+        >segunda versão-1995
+        >terceira versão-1997
+        >quarta-1999
+        >quinta-2014
+    >HTML usa "marcações" exemplo: <img> quando precisamos de uma imagem
+    <h1...h6> Define cabeçalhos de texto 1 a 6
+    <p> Define um parágrafo
+    <br> Insere uma quebra de linha
+    <hr> Define uma linha horizontal
+    <!-- Comentário --> Define um comentário de código ou texto
+    <head> Define um documento HTML
+    <body> Define um corpo de um documento HTML
+    
+    Elementos HTML
+        >Tipo Block
+            >DIV
+            >P
+            >h1-h6
+            >ul-ol
+        >Tipo Inline
+            >span
+            >b, stong
+            >a
+            >img
+            

@@ -1,0 +1,38 @@
+Listas:
+    Listas Ordenadas são utilizadas quando a ordem é importante para o agrupamento de dados
+        São deifinidas pela tag <ul>
+        Cada item da lista deve ser difinido pela tag <li>
+    Listas aninhadas são utilizads quando é necessario criar uma lista dentro de outra lista
+        São definidas pela tag <ul> dentro de outra tag <ul>
+
+Exemplos:
+        <h2>Lista Ordenada</h2>>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+            </ol>
+
+        <h2>Lista Não Ordenada</h2>>
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+                <li>Item D</li>
+                <li>Item E</li>
+            </ul>
+
+Containers
+    <header> cabeçalho
+    <nav>
+    <section>
+    <article>
+    <aside>
+    <footer>
+    <details>
+    <summary>
+
+Caso queira agrupar estilos use <div>
+Se o objetivo é dividir semanticamente um conteúdo em sua página, utilize o <section>

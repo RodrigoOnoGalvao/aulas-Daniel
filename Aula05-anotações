@@ -1,0 +1,36 @@
+Formulários em HTML
+    HTML possibilita a criação de formulários online utilizando tags
+    <input> obter dados de entrada no formulário
+    <label> rótulo para um campo de formulário
+    <select> para criação de listas suspensas
+    <button> cria-se um botão clickável
+    <textarea> cria-se um campo de texto multi-linha
+    <form> cria-se um formulário
+    <fieldset> cria-se um grupo de campos
+    <legend> cria-se um título para um grupo de campos
+    <datalist> cria-se uma lista de opções para um campo de entrada
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            <section>
+                <form>
+                    <label> Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                    <label> E-mail:</label>
+                    <input type="email" name="email">
+                    <label> Assunto: </label>
+                    <input type="text" name="assunto">
+                    <input type="submit" value="Enviar">
+                    <label> Mensagem: </label>
+                    <textarea type="text" name="Assunto"></textarea>
+                    <input type="button" Value="Enviar">
+                </form>
+            </section>
+        </body>
+        </html>

@@ -1,0 +1,56 @@
+TAGs para texto: <b> <strong> <i> <em> <mark> <small> <del> <ins> <sub> <sup>
+    <b> deixa o texto em negrito
+    <strong> importância ao texto
+    <i> deixa o texto em itálico
+    <em> deixa o texto enfatizado
+    <mark> deixa o texto marcado
+    <small> deixa o texto pequeno
+    <del> deixa o texto riscado
+    <ins> deixa o texto sublinhado
+    <sub> deixa o texto em subscrito
+    <sup> deixa o texto em sobrescrito
+
+Para organizar um texto podemos utilizar ainda as TAGs <P> <SPAN> <DIV> <SECTION> <ARTICLE> <ASIDE> <HEADER> <FOOTER> <MAIN> <NAV> <ADDRESS>
+    <p> define um parágrafo
+    <span> define uma parte do texto
+    <div> define uma divisão
+    <section> define uma seção
+    <article> define um artigo
+    <aside> define um conteúdo lateral
+    <header> define um cabeçalho
+    <footer> define um rodapé
+    <main> define o conteúdo principal
+    <nav> define uma navegação
+    <address> define informações de contato
+
+Desafio Prático:
+        Crie um documento em HTML que exiba o texto de acordo com as seguintes configurações:
+            Título
+            Subtítulo
+            Texto sublinhado
+            frase marcada com marcador
+<h1>HTML <SUP>Linguagem de Marcação de Hipertexto</SUP></h1>
+
+<h3>Tutoriais para iniciantes</h3>
+
+<strong><ins>HTML</ins></strong><i>(Linguagem de Marcação de Hipertexto)</i><mark>é uma linguagem de marcação que define o conteúdo de uma página web.</mark>
+
+Imagens em HTML: <img>
+Então, para incluir uma imagem em uma página html, adicionamos a tag <img> com o atributo src do link da imagem
+
+Não confuda HREF da tag <A> com o atributo SRC da tag <img>
+Possuem comportamento semelhante mas tem objetivos diferentes
+
+Tabelas: <table>
+    <table> define uma tabela
+    <tr> define uma linha
+    <td> define uma célula
+    <th> define um cabeçalho
+    <caption> define um título para a tabela
+    <thead> define o cabeçalho da tabela
+    <tbody> define o corpo da tabela
+    <tfoot> define o rodapé da tabela
+    <col> define uma coluna
+    <colgroup> define um grupo de colunas
+    <rowspan> define o número de linhas que uma célula deve ocupar
+    <colspan> define o número de colunas que uma célula deve ocupar.

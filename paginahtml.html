@@ -1,0 +1,206 @@
+<html>
+<head>
+    <title>Meu site</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #fc6500;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header h3 {
+            margin: 5px 0 0;
+            font-weight: normal;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+
+        section p {
+            margin: 10px 0;
+        }
+
+        section img {
+            float: right;
+            margin-left: 10px;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #fc6500;
+            color: white;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        form input[type="submit"] {
+            background-color: #fc6500;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            font-size: 1em;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #fc6500;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header = TOPO do site -->
+    <header>
+        <h1>
+            HTML
+            <sup>Linguagem de Marcação de Hipertexto</sup>
+        </h1>
+        <h3>Tutorial para Iniciantes</h3>
+    </header>
+
+    <!-- Section = Seção do site -->
+    <section>
+        <p>
+            <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png" 
+                width="100px" 
+                align="right"
+            >
+            <strong><ins>HTML</ins></strong>
+            <i>(Linguagem de marcação de Hipertexto)</i>
+            é o bloco de construção mais básico da web.
+            <mark>Define o significado e a estrutura do conteúdo da web</mark>.
+            Outras tecnologias do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou
+            a funcionalidade/comportamento <em>(JavaScript)</em> de uma página web.
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tags HTML</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Tag que define documento HTML</td>
+                </tr>
+                <tr>
+                    <td>P</td>
+                    <td>Definição de Parágrafo de texto</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Protocolos da Web</h2>
+        <ol>
+            <li>HTTP - Hypertext Transfer Protocol</li>
+            <li>FTP - File Transfer Protocol</li>
+            <li>SMTP – Simple Mail Transfer Protocol</li>
+            <li>POP – Post Office Protocol</li>
+            <li>IMAP – Internet Message Access Protocol</li>
+        </ol>
+    </section>
+
+    <section>
+        <form method="post" action="obrigado.html">
+            <label>Nome:</label>
+            <input type="text" name="nome" required>
+            <br>
+
+            <label>Idade:</label>
+            <input type="number" min="0" max="120">
+            <br>
+
+            <label>E-mail:</label>
+            <input type="email" name="email">
+            <br>
+
+            <label>Assunto:</label>
+            <select name="assunto">
+                <option value="Reclamação">Reclamação</option>
+                <option value="Elogio" selected>Elogio</option>
+                <option value="Sugestão">Sugestão</option>
+            </select>
+            <br>
+
+            <label>Mensagem:</label>
+            <textarea name="mensagem"></textarea>
+            <br>
+            
+            <input type="checkbox" name="termo" required>
+            <label>Aceito o tratamento de dados deste site.</label> 
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
